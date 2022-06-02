@@ -1,0 +1,59 @@
+/* Import global scss */
+.questionBoxWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+}
+
+.questionBoxWrapper .questionBox {
+  border: 1px solid #000;
+  width: 90%;
+  height: 900px;
+}
+
+.questionBoxWrapper .questionBox .questionBottom {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.questionBoxWrapper .questionBox .questionBottom input {
+  width: 20vh;
+  height: 2.5vh;
+}
+
+.discussionWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 20px 40px;
+  border: 2px solid green;
+  width: 30%;
+  height: auto;
+}
+
+.discussionWrapper p {
+  padding: 0 30px;
+}
+/*# sourceMappingURL=main-style.css.map */

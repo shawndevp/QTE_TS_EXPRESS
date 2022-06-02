@@ -1,0 +1,38 @@
+.questionBoxWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+
+  .questionBox {
+    border: 1px solid $color-black;
+    width: 90%;
+    height: 900px;
+
+    .questionBottom {
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      input {
+        width: 20vh;
+        height: 2.5vh;
+      }
+    }
+  }
+}
+
+.discussionWrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 40px;
+  border: 2px solid $color-green;
+  width: 30%;
+  height: auto;
+
+  p {
+    padding: 0 30px;
+  }
+}
